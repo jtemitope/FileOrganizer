@@ -46,8 +46,8 @@ organize_by_type() {
     mkdir -p "$IMAGES_DIR" "$DOCS_DIR" "$TEXTFILES_DIR"
    
     for file in * .*; do
-        [["$file" == "." || "$file" == ".."]] && continue
-        if [[-f "$file" ]]; then
+        [[ "$file" == "." || "$file" == ".." ]] && continue
+        if [[ -f "$file" ]]; then
             ext="${file##*.}"
             case "$ext" in
                 jpg|jpeg|png|gif)
