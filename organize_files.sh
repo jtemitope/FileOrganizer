@@ -50,7 +50,7 @@ organize_by_type() {
         if [[ -f "$file" ]]; then
             ext="${file##*.}"
             case "$ext" in
-                jpg|jpeg|png|gif)
+                jpg|jpeg|png|webp|gif)
                     mv "$file" "$IMAGES_DIR/" && echo "Moved $file to $IMAGES_DIR" | tee -a "$LOG_FILE"
                     ;;
                 pdf|doc|docx|ppt|pptx|xls|xlsx)
