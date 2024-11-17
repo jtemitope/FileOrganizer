@@ -62,5 +62,5 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 
 ## Author
 Temitope Johnson
-* X (formerly twitter): @temibytes
+* X (formerly Twitter): @temibytes
 * LinkedIn: https://linkedin.com/in/jtemitope
