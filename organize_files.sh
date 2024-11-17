@@ -86,4 +86,4 @@ case "$choice" in
         ;;
 esac
 
-echo "File organization completed at $(date) | tee -a "$LOG_FILE"
+echo "File organization completed at $(date)" | tee -a "$LOG_FILE"
